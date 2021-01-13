@@ -1,11 +1,21 @@
-ul {
+.topnav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 li {
-  display: inline;
+  padding: 10px;
 }
 
 a {
@@ -14,12 +24,20 @@ a {
   text-decoration: none;
 }
 
-.left {
-  display: inline;
-  float: left;
+
+#logo {
+  display: block;
+  margin: auto;
+  padding-top: 8%;
+  width: 22%;
 }
 
-.right {
-  display: inline;
-  float: right;
+input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 40%;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
 }
